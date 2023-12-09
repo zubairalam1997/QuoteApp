@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "yes",
-    "build": "npm i"
+    "start": "node index.js",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "express": "^4.18.2",
     "mongoose": "^7.6.3",
     "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
